@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		4Pf/T9jfIU26AETh0yty5tO8xxU=
+		2HROS+Dt1B1lRNtpPPOUZn6sUtE=
 		</data>
 		<key>FloatingActionButtonsView.nib</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MZPAIcstJZ604ZTTZ/3E9HYxZ/U=
+		EsI3/LtA0GNwwqQTxw5a6/DRyQc=
 		</data>
 		<key>LoadingIndicatorView.nib</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Modules/AppBoxoSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		yGwWY01DHTl5zppOaq8zDPNqAoQ=
+		sO4hpGWrqmDmBkSJPfpHGv4V/Zw=
 		</data>
 		<key>Modules/AppBoxoSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -162,11 +162,11 @@
 		</data>
 		<key>Modules/AppBoxoSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dw4lBG52zYw5d56mzEatxYiQHpM=
+		kqz+A2PDINMTg8tHFk61HNniZJY=
 		</data>
 		<key>Modules/AppBoxoSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		yGwWY01DHTl5zppOaq8zDPNqAoQ=
+		sO4hpGWrqmDmBkSJPfpHGv4V/Zw=
 		</data>
 		<key>Modules/AppBoxoSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>Modules/AppBoxoSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HPu7NRcbBGgX2ugv38o7KliD2Hg=
+		QfdPraGjdJhaMGQ1jdqFLThbZ1s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -190,11 +190,11 @@
 		</data>
 		<key>RetryView.nib/objects-11.0+.nib</key>
 		<data>
-		xMW9aqH29EXr6oMytX9CL27y1II=
+		YFJWfg6OzNZ8aztIDQ/cdPt8uoM=
 		</data>
 		<key>RetryView.nib/runtime.nib</key>
 		<data>
-		qyU98surwrbD4jhE5PcMTXek7y4=
+		4/jep5Qcn6hXltXL3+H43jQm7Ac=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -203,11 +203,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4Pf/T9jfIU26AETh0yty5tO8xxU=
+			2HROS+Dt1B1lRNtpPPOUZn6sUtE=
 			</data>
 			<key>hash2</key>
 			<data>
-			9X9+DCnjaR8wUNMK/iKai27xKdcaZ/jh/a6o/8xp9Fk=
+			j4q/lA31STUZ75Hhj7Vq8V2Smdbvx6xYr7so+LCa4ws=
 			</data>
 		</dict>
 		<key>FloatingActionButtonsView.nib</key>
@@ -577,11 +577,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yGwWY01DHTl5zppOaq8zDPNqAoQ=
+			sO4hpGWrqmDmBkSJPfpHGv4V/Zw=
 			</data>
 			<key>hash2</key>
 			<data>
-			RLk4SbIvd4IAoysJEwv5e9mtB3GtLn6rq4h2vO8f8Fo=
+			qPIylzL+WUR6ZRoRPvn//HB685mW/go4D3ud/yReFt4=
 			</data>
 		</dict>
 		<key>Modules/AppBoxoSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -621,22 +621,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dw4lBG52zYw5d56mzEatxYiQHpM=
+			kqz+A2PDINMTg8tHFk61HNniZJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			h99x0h5jO3T4XSvboGqaMeqDVoYX9gK9LysOgtCMS5M=
+			pTFKhPkEd4seZ980zb9vCnr/rQdVQ5R1y6kbuNEtFOg=
 			</data>
 		</dict>
 		<key>Modules/AppBoxoSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yGwWY01DHTl5zppOaq8zDPNqAoQ=
+			sO4hpGWrqmDmBkSJPfpHGv4V/Zw=
 			</data>
 			<key>hash2</key>
 			<data>
-			RLk4SbIvd4IAoysJEwv5e9mtB3GtLn6rq4h2vO8f8Fo=
+			qPIylzL+WUR6ZRoRPvn//HB685mW/go4D3ud/yReFt4=
 			</data>
 		</dict>
 		<key>Modules/AppBoxoSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -676,11 +676,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HPu7NRcbBGgX2ugv38o7KliD2Hg=
+			QfdPraGjdJhaMGQ1jdqFLThbZ1s=
 			</data>
 			<key>hash2</key>
 			<data>
-			QwGWbUZSG2+jcrBuqftwqhzFtxbQ7YHlv1M2ER/ygb4=
+			tH3dB5bmOkVrDC4DCMjKM8+zZFx5HA5MRtkebzWmX3E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -698,22 +698,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xMW9aqH29EXr6oMytX9CL27y1II=
+			YFJWfg6OzNZ8aztIDQ/cdPt8uoM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ptSjNyVphvo8buQbw4Dr7wTVVXJT/pG0o7j6stgJNKw=
+			8c3jODqCYUXwII6AtC7C3wncYHO+m6I83Inn3k5raBo=
 			</data>
 		</dict>
 		<key>RetryView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qyU98surwrbD4jhE5PcMTXek7y4=
+			4/jep5Qcn6hXltXL3+H43jQm7Ac=
 			</data>
 			<key>hash2</key>
 			<data>
-			3xni1f7JwvHMgcZ/2pB748/c4VZMVY2pmpL4teWGdlU=
+			AzqEUYZ3WI5HioqF0Mj1maFrHyFP/ylLLuRRLB9IV30=
 			</data>
 		</dict>
 	</dict>
