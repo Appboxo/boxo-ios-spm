@@ -17,4 +17,4 @@ more about [Boxo SDK](https://docs.boxo.io)
 
 ## License
 
-AppBoxo is available under the MIT license. See the LICENSE file for more info.
+Boxo is available under the MIT license. See the LICENSE file for more info.
