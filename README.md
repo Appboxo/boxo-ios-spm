@@ -4,7 +4,7 @@ Add a package by selecting `File` → `Add Packages…` in Xcode’s menu bar.
 
 Search for the AppBoxoSDK using the repo's URL:
     
-    https://github.com/Appboxo/appboxo-ios-spm.git
+    https://github.com/Appboxo/boxo-ios-spm.git
 
 
 Next, set the **Dependency Rule** to be `Up to Next Major Version`.
@@ -12,7 +12,7 @@ Next, set the **Dependency Rule** to be `Up to Next Major Version`.
 Then, select **Add Package**.
   
 
-more about [AppboxoSDK](https://github.com/Appboxo/appboxo-ios-sdk)
+more about [Boxo SDK](https://docs.boxo.io)
 
 
 ## License

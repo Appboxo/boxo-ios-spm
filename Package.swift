@@ -4,14 +4,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "AppBoxoSDK",
+    name: "BoxoSDK",
     products: [
-        .library(name: "AppBoxoSDK", targets: ["AppBoxoSDK"])
+        .library(name: "BoxoSDK", targets: ["BoxoSDK"])
     ],
     targets: [
         .binaryTarget(
-            name: "AppBoxoSDK",
-            path: "AppBoxoSDK.xcframework"
+            name: "BoxoSDK",
+            path: "BoxoSDK.xcframework"
         )
     ]
 )
