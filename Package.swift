@@ -9,22 +9,30 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        .library(name: "BoxoSDK", targets: ["BoxoSDK", "BoxoSDKDependencies"])
-    ],
-    dependencies: [
-        .package(url: "https://github.com/airbnb/lottie-ios.git", exact: "4.6.0")
+        .library(name: "BoxoSDK", targets: ["BoxoSDK", "Lottie", "_BoxoSDKStub"])
     ],
     targets: [
         .binaryTarget(
             name: "BoxoSDK",
             path: "BoxoSDK.xcframework"
         ),
+        // Lottie ships bundled with BoxoSDK so that consumers don't need to add
+        // airbnb/lottie-spm separately. Adding another Lottie dependency in your
+        // app will produce duplicate symbols at link time.
+        .binaryTarget(
+            name: "Lottie",
+            path: "Lottie.xcframework"
+        ),
+        // SwiftPM doesn't embed pure binaryTarget products into the consuming
+        // app unless at least one regular target depends on them. Without this
+        // stub, the framework is linked but not copied into the app bundle,
+        // and the app crashes on a physical device with "Library not loaded".
+        // Same workaround Airbnb uses in lottie-spm.
+        // See https://github.com/apple/swift-package-manager/issues/6069
         .target(
-            name: "BoxoSDKDependencies",
-            dependencies: [
-                .product(name: "Lottie", package: "lottie-ios")
-            ],
-            path: "Sources/BoxoSDKDependencies"
+            name: "_BoxoSDKStub",
+            dependencies: ["BoxoSDK", "Lottie"],
+            path: "Sources/_BoxoSDKStub"
         )
     ]
 )
