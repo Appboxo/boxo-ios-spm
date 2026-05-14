@@ -9,12 +9,22 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        .library(name: "BoxoSDK", targets: ["BoxoSDK"])
+        .library(name: "BoxoSDK", targets: ["BoxoSDK", "BoxoSDKDependencies"])
+    ],
+    dependencies: [
+        .package(url: "https://github.com/airbnb/lottie-ios.git", exact: "4.6.0")
     ],
     targets: [
         .binaryTarget(
             name: "BoxoSDK",
             path: "BoxoSDK.xcframework"
+        ),
+        .target(
+            name: "BoxoSDKDependencies",
+            dependencies: [
+                .product(name: "Lottie", package: "lottie-ios")
+            ],
+            path: "Sources/BoxoSDKDependencies"
         )
     ]
 )
