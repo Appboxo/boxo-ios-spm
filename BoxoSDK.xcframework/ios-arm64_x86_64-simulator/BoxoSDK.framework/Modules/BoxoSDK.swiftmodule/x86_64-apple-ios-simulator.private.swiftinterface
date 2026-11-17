@@ -133,6 +133,12 @@ extension BoxoSDK.MiniappAsyncDelegate {
   @objc public var delegate: (any BoxoSDK.MiniappDelegate)?
   public var asyncDelegate: (any BoxoSDK.MiniappAsyncDelegate)?
   @objc public var webViewDelegate: (any BoxoSDK.MiniappWebViewDelegate)?
+  @objc public var codeChallenge: Swift.String? {
+    get
+  }
+  @objc public var codeChallengeMethod: Swift.String? {
+    get
+  }
   @objc(initWithAppId:) required public init(appId: Swift.String)
   @objc(openWithViewController:) public func open(viewController: UIKit.UIViewController)
   @objc(sendCustomEvent:) public func sendCustomEvent(customEvent: BoxoSDK.CustomEvent)

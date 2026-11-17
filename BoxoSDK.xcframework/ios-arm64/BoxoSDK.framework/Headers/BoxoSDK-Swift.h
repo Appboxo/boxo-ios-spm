@@ -457,6 +457,8 @@ SWIFT_CLASS_NAMED("Miniapp")
 @property (nonatomic, copy) NSString * _Nonnull appId;
 @property (nonatomic, strong) id <MiniappDelegate> _Nullable delegate;
 @property (nonatomic, strong) id <MiniappWebviewDelegate> _Nullable webViewDelegate;
+@property (nonatomic, readonly, copy) NSString * _Nullable codeChallenge;
+@property (nonatomic, readonly, copy) NSString * _Nullable codeChallengeMethod;
 - (nonnull instancetype)initWithAppId:(NSString * _Nonnull)appId OBJC_DESIGNATED_INITIALIZER;
 - (void)openWithViewController:(UIViewController * _Nonnull)viewController;
 - (void)sendCustomEvent:(CustomEvent * _Nonnull)customEvent;
